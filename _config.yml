@@ -1,4 +1,4 @@
-theme: jekyll-theme-tactile
+remote-theme: "mmistakes/minimal-mistakes"
 name: Ruud de Jong
 url: https://rhjdjong.github.io
 title: Ruud de Jong
