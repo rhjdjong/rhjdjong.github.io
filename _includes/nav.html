@@ -1,4 +1,5 @@
 <nav id="navbar" class="collapse navbar-collapse">
+  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
   <ul class="nav navbar">
     {% for link in site.pages %}
       {% assign class = nil %}
