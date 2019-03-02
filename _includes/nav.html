@@ -1,7 +1,7 @@
 <nav id="navbar" class="collapse navbar-collapse">
-  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  {% assign links = site.data.navigation %}
   <ul class="nav navbar">
-    {% for link in site.pages %}
+    {% for link in links %}
       {% assign class = nil %}
       {% if page.url contains link.url %}
         {% assign class = 'active' %}
