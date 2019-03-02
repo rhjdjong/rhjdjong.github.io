@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 ---
 
 This is my personal GitHub page.
