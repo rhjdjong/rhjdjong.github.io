@@ -1,7 +1,15 @@
-- title: Ruud de Jong
-  url: /index.html
-- title: About me
-  url: /about.html
-- title: CV
-  url: /cv.html
-  
+main:
+  - tile: Home
+    url: /
+  - title: "About me"
+    url: /about
+  - title: CV
+    url: /cv
+
+sidebar-home:
+  - title: Python Matters
+    url: /PythonMatters
+  - title: Forelsket i Norge
+    url: https://forelsketinorge.blogspot.com/
+  - title: Denkspinsels
+    url: https://denkspinsels.blogspot.com/
